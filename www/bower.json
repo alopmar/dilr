@@ -1,0 +1,31 @@
+{
+  "name": "dilr",
+  "version": "0.0.1",
+  "homepage": "https://github.com/alopmar/dilr",
+  "authors": [
+    "alopmar <antonio.lopmar@gmail.com>"
+  ],
+  "description": "Dilr allows you to manage deals, price promotions and special offers",
+  "main": "index.html",
+  "keywords": [
+    "deals",
+    "price",
+    "promotion",
+    "offer",
+    "coupon",
+    "discount"
+  ],
+  "license": "Beerware",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ratchet": "~2.0.2",
+    "react": "~0.12.2"
+  }
+}

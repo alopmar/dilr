@@ -1,0 +1,47 @@
+.content > .table-view:first-child {
+    margin-top: -2px;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.media-object::after{
+      content: "C";
+      color: #FFFFFF;
+      text-align: center;
+      font-weight: bold;
+      font-size: 2.5em;
+      text-align: center;
+      padding: 13px 10px;
+      position: absolute;
+}
+
+.media-object.big {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background-color: #666699;
+}
+
+.media-object.small {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #666699;
+}
+
+.table-view-cell h1 {
+    font-size: 20px;
+    font-weight: normal;
+    padding: 20px 0 4px 0;
+    margin: 0;
+}
+
+input[type=search] {
+    border-radius: 8px;
+}
+
+.card {
+    margin-top:54px;
+}

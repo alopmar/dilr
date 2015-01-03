@@ -1,0 +1,28 @@
+{
+  "name": "dilr",
+  "version": "0.0.1",
+  "description": "dilr allows you to manage deal, price promotions and special offers",
+  "main": "node server.js",
+  "scripts": {
+  },
+  "keywords": [
+    "deal",
+    "price",
+    "promotion",
+    "offer",
+    "coupon"
+  ],
+  "author": "Antonio López Martínez",
+  "license": "Beerware",
+  "dependencies": {
+    "body-parser": "^1.10.0",
+    "express": "^4.10.6",
+    "express-handlebars":"~1.1.0",
+    "method-override": "^2.3.0",
+    "mongoose": "^3.8.21",
+    "morgan": "^1.5.0",
+    "node-jsx": "~0.11.0",
+    "react": "~0.11.2",
+    "socket.io": "^1.1.0"
+  }
+}
