@@ -50,14 +50,14 @@ mongoose.connect('mongodb://127.0.0.1/dilr',
 );
 
 router.route('/category')
-      .get(controller.findAll);
+    .post(controller.add)
+    .get(controller.findAll);
 
-router.route('/category/:name')
+router.route('/category/name/:name')
       .get(controller.findByName);
 
 router.route('/category/:id')
       .get(controller.findById)
-      .post(controller.add)
       .put(controller.update)
       .delete(controller.remove);
 
@@ -65,7 +65,7 @@ app.use('/api', router);
 
 var server = http.createServer(app).listen(port, function()
     {
-      console.log('Dilr server listening on port ' + port);
+      console.log('Dilr server listening on port ' + port + '(http://127.0.0.1:' + port + ')' );
     });
 
 var io = require('socket.io').listen(server); 

@@ -4,7 +4,7 @@ categoryService = (function () {
 
     return {
         findByName: function(searchKey) {
-            return $.ajax({url: baseURL + "/api/category/" + searchKey});
+            return $.ajax({url: baseURL + "/api/category/name/" + searchKey});
         }
      };
 
